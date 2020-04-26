@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% if title %}
+    <title>{{ title }} - Tutor Quiz</title>
+    {% else %}
+    <title>Tutor Quiz</title>
+    {% endif %}
+</head>
+
+<body>
+    {% block content %}{% endblock %}
+</body>
+
+</html>
